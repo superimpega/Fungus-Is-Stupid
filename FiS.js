@@ -6,8 +6,12 @@ var autoModeratorModel = require('app/base/Class').extend({
 	version: "1.0.0",
 	bannedWords: [
 		'http://plug.dj',
-		'/me',
-		'ヽ'
+		'fan4fan',
+		'fan 4 fan',
+		'pls fan',
+		'fan me please',
+		'fan me pls',
+		
 	],
 	mutedUsers: [],
 	init: function() {
